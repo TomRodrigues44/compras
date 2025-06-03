@@ -1,0 +1,28 @@
+body {
+  font-family: sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+}
+input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 1rem;
+}
+button {
+  background: #009579;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background: #007f5c;
+}
+a {
+  color: #009579;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
