@@ -1,0 +1,12 @@
+version: "3"
+services:
+  compras:
+    build: .
+    container_name: compras
+    ports:
+      - "3002:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
